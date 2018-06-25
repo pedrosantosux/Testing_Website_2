@@ -1,0 +1,300 @@
+
+
+/*Global Styles*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+}
+
+
+.button_1{
+    height: 40px;
+    background-color: #e8491d;
+    border:0;
+    padding: 0 20px 0 20px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+
+.footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    bottom:0;
+    right:0;
+    left:0;
+    
+}
+
+aside#sidebar{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    float: right;
+    width: 30%;
+    
+}
+
+
+article#main-col{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    float: left;
+    width: 65%;
+}
+
+
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: white;
+    margin-top:10px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+
+
+/*Header*/
+header{
+    background: #35424a;
+    color: #ffffff; 
+    padding-top: 30px;
+    min-height: 0px;
+    border-bottom: #e8491d 3px solid;
+}
+
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;   
+}
+
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 10px 10px;
+}
+
+
+header #branding{
+    float: left;
+}
+
+
+nav{
+    float: right;
+}
+
+
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight:bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: ;
+}
+
+
+
+
+
+
+
+
+
+
+/*Showcase*/
+
+#showcase{
+    min-height: 400px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background:url('../footage/images/01/x2/wall.jpg') center center;
+    background-size: cover
+    background-color:red;
+    text-align:left;
+    color:#ffffff; 
+}
+
+#showcase h1{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #ffffff;
+
+}
+
+#showcase p{
+    font-size: 20px;    
+}
+
+
+
+
+
+#blueonediv{
+    background-color: #2590DC;
+    height: 300px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.textbox1div{
+    margin: auto;  
+    width: 80%;
+    text-align: left;
+}
+  
+.textwrap{
+    max-width: 700px;
+}
+
+
+
+
+
+
+/*Newsletter*/
+#newsletter{
+    padding: 20px;
+    color: #ffffff;
+    background-color: #35424a;    
+}
+
+
+#newsletter h1{
+    float: left;
+}
+
+
+#newsletter form{
+    float: right;
+    margin-top: 25px;
+}
+
+
+#newsletter input[type="email"]{
+    padding: 5px;
+    height: 25px;
+    width: 200px;
+    
+}
+
+
+
+
+
+
+
+/*Flexboxes*/
+#flexboxes{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+
+#flexboxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#flexboxes .box img{
+    width: 100px;
+}
+
+
+#images .container img{
+    padding-bottom: 40px;
+    width: 700px;
+}
+
+
+
+.container2{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+.container2 img{
+    height: 300px;
+    padding-right: 20px;
+}
+
+
+
+
+/*Services*/
+
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: ;
+    margin-bottom: 10px;
+    background: #e6e6e6;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Queries*/
+
+@media(max-width:768px){
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
